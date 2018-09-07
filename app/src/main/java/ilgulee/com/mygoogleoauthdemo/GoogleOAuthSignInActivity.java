@@ -19,7 +19,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 
 public class GoogleOAuthSignInActivity extends AppCompatActivity implements View.OnClickListener {
-    private static final String TAG = "GoogleOAuthSignInActivi";
+    private static final String TAG = "GoogleOAuthSignInActivity";
 
     private static final int REQUEST_CODE = 9001;
     private TextView mStatusTextView;
@@ -117,6 +117,7 @@ public class GoogleOAuthSignInActivity extends AppCompatActivity implements View
                     }
                 });
     }
+
     // [END revokeAccess]
     // [START onActivityResult]
     @Override
