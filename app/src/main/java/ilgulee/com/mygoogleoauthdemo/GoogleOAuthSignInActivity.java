@@ -21,9 +21,9 @@ import com.google.android.gms.tasks.Task;
 public class GoogleOAuthSignInActivity extends AppCompatActivity implements View.OnClickListener {
     private static final String TAG = "GoogleOAuthSignInActivity";
 
-    private static final int REQUEST_CODE = 9001;
-    private TextView mStatusTextView;
-    private GoogleSignInClient mGoogleSignInClient;
+//    private static final int REQUEST_CODE = 9001;
+//    private TextView mStatusTextView;
+//    private GoogleSignInClient mGoogleSignInClient;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
